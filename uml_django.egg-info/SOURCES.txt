@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+uml_django/__init__.py
+uml_django/inspect.py
+uml_django.egg-info/PKG-INFO
+uml_django.egg-info/SOURCES.txt
+uml_django.egg-info/dependency_links.txt
+uml_django.egg-info/requires.txt
+uml_django.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: uml-django
+Version: 1.0.0
+Summary: A UML Generator for Django and Django Rest Framework projects
+Home-page: UNKNOWN
+Author: Pedro Vieira
+Author-email: pedrophdv@outlook.com
+License: MIT
+Keywords: generator UML Django
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Django UML Generator
+This library aims to inspect the entire Django / Django Rest Framework project and thus obtain the models of each app, to then detect the attributes and methods of each class as well as their relationships to then result in a complete UML diagram of the project's entitiess.
+
