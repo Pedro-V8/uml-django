@@ -4,11 +4,12 @@ with open("README.md", "r") as fh:
     readme = fh.read()
 
 setup(
-    name = 'django_uml',
-    version = '1.0.0',
+    name = 'uml_django',
+    version = '1.0.1',
     author = 'Pedro Vieira',
     author_email = 'pedrophdv@outlook.com',
-    packages = ['django_uml'],
+    url = 'https://github.com/Pedro-V8/uml-django',
+    packages = ['uml_django'],
     install_requires=['django' , 'plantuml' , 'six'],
     description = 'A UML Generator for Django and Django Rest Framework projects',
     long_description=readme,

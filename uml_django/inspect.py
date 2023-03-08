@@ -9,8 +9,8 @@ from plantuml import PlantUML
 
 class Inspect():
     def __init__(self , settings):
-        #os.environ['DJANGO_SETTINGS_MODULE'] = settings
-        #django.setup()
+        os.environ['DJANGO_SETTINGS_MODULE'] = settings
+        django.setup()
         self.root = '.'        
         self.classLIST = []
         self.url = 'http://www.plantuml.com/plantuml/img/'
