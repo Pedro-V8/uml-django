@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: uml-django
-Version: 1.0.1
+Version: 1.0.2
 Summary: A UML Generator for Django and Django Rest Framework projects
 Home-page: https://github.com/Pedro-V8/uml-django
 Author: Pedro Vieira

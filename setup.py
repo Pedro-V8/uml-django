@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name = 'uml_django',
-    version = '1.0.1',
+    version = '1.0.2',
     author = 'Pedro Vieira',
     author_email = 'pedrophdv@outlook.com',
     url = 'https://github.com/Pedro-V8/uml-django',
