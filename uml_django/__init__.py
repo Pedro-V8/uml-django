@@ -1,0 +1,1 @@
+from uml_django.inspect import Inspect as Inspect
