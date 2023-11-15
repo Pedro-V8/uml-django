@@ -3,6 +3,7 @@ import importlib
 import inspect
 import ast
 import django
+import platform
 
 from plantuml import PlantUML
 
@@ -89,7 +90,14 @@ class Inspect():
         self.UML.create_uml()
 
     def analyse(self , arquivo):
-        arquivo_new = arquivo[2:].replace('/', '.')
+
+        if platform.system() == 'Windows':
+            arquivo_new = arquivo[2:].replace('\\', '.')
+        elif platform.system() == 'Linux' or platform.system() == 'Darwin':
+            arquivo_new = arquivo[2:].replace('/', '.')
+        else:
+            print("Error: Can´t recognize OS")
+            exit()
         arquivo_classe = importlib.import_module(arquivo_new[:-3])
         
         for nome_classe , classe in inspect.getmembers(arquivo_classe, inspect.isclass):
