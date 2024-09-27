@@ -30,18 +30,18 @@ pip3 install uml-django
 ```
 .
 ├── db.sqlite3
-├── django_project
+├── django_project/
 │   ├── __init__.py
 │   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
 ├── manage.py
-├── app_01
-├── app_02
-└── app_03
+├── app_01/
+├── app_02/
+└── app_03/
 ├── requirements.txt
-├── inspect_class.py
+├── inspect_class.py <---
 ├── venv
 
 ```
